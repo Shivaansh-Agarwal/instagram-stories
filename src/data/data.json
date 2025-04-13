@@ -1,0 +1,168 @@
+{
+  "users": [
+    {
+      "userId": 1,
+      "username": "user_1",
+      "displayPic": "https://picsum.photos/id/64/100/100",
+      "stories": [
+        {
+          "id": 1,
+          "url": "https://picsum.photos/id/10/400/600",
+          "duration": 5,
+          "altText": "User 1 - Story 1"
+        },
+        {
+          "id": 2,
+          "url": "https://picsum.photos/id/11/400/600",
+          "duration": 5,
+          "altText": "User 1 - Story 2"
+        }
+      ]
+    },
+    {
+      "userId": 2,
+      "username": "user_2",
+      "displayPic": "https://picsum.photos/id/65/100/100",
+      "stories": [
+        {
+          "id": 3,
+          "url": "https://picsum.photos/id/21/400/600",
+          "duration": 5,
+          "altText": "User 2 - Story 1"
+        },
+        {
+          "id": 4,
+          "url": "https://picsum.photos/id/22/400/600",
+          "duration": 5,
+          "altText": "User 2 - Story 2"
+        },
+        {
+          "id": 5,
+          "url": "https://picsum.photos/id/23/400/600",
+          "duration": 5,
+          "altText": "User 2 - Story 3"
+        }
+      ]
+    },
+    {
+      "userId": 3,
+      "username": "user_3",
+      "displayPic": "https://picsum.photos/id/66/100/100",
+      "stories": [
+        {
+          "id": 6,
+          "url": "https://picsum.photos/id/31/400/600",
+          "duration": 5,
+          "altText": "User 3 - Story 1"
+        }
+      ]
+    },
+    {
+      "userId": 4,
+      "username": "user_4",
+      "displayPic": "https://picsum.photos/id/67/100/100",
+      "stories": []
+    },
+    {
+      "userId": 5,
+      "username": "user_5",
+      "displayPic": "https://picsum.photos/id/68/100/100",
+      "stories": []
+    },
+    {
+      "userId": 6,
+      "username": "user_6",
+      "displayPic": "https://picsum.photos/id/69/100/100",
+      "stories": [
+        {
+          "id": 7,
+          "url": "https://picsum.photos/id/41/400/600",
+          "duration": 5,
+          "altText": "User 6 - Story 1"
+        },
+        {
+          "id": 8,
+          "url": "https://picsum.photos/id/42/400/600",
+          "duration": 5,
+          "altText": "User 6 - Story 2"
+        }
+      ]
+    },
+    {
+      "userId": 7,
+      "username": "user_7",
+      "displayPic": "https://picsum.photos/id/70/100/100",
+      "stories": [
+        {
+          "id": 9,
+          "url": "https://picsum.photos/id/51/400/600",
+          "duration": 5,
+          "altText": "User 7 - Story 1"
+        }
+      ]
+    },
+    {
+      "userId": 8,
+      "username": "user_8",
+      "displayPic": "https://picsum.photos/id/71/100/100",
+      "stories": [
+        {
+          "id": 10,
+          "url": "https://picsum.photos/id/61/400/600",
+          "duration": 5,
+          "altText": "User 8 - Story 1"
+        },
+        {
+          "id": 11,
+          "url": "https://picsum.photos/id/62/400/600",
+          "duration": 5,
+          "altText": "User 8 - Story 2"
+        },
+        {
+          "id": 12,
+          "url": "https://picsum.photos/id/63/400/600",
+          "duration": 5,
+          "altText": "User 8 - Story 3"
+        }
+      ]
+    },
+    {
+      "userId": 9,
+      "username": "user_9",
+      "displayPic": "https://picsum.photos/id/72/100/100",
+      "stories": [
+        {
+          "id": 13,
+          "url": "https://picsum.photos/id/71/400/600",
+          "duration": 5,
+          "altText": "User 9 - Story 1"
+        },
+        {
+          "id": 14,
+          "url": "https://picsum.photos/id/72/400/600",
+          "duration": 5,
+          "altText": "User 9 - Story 2"
+        }
+      ]
+    },
+    {
+      "userId": 10,
+      "username": "user_10",
+      "displayPic": "https://picsum.photos/id/73/100/100",
+      "stories": [
+        {
+          "id": 15,
+          "url": "https://picsum.photos/id/81/400/600",
+          "duration": 5,
+          "altText": "User 10 - Story 1"
+        },
+        {
+          "id": 16,
+          "url": "https://picsum.photos/id/82/400/600",
+          "duration": 5,
+          "altText": "User 10 - Story 2"
+        }
+      ]
+    }
+  ]
+}

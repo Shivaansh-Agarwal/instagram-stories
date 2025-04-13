@@ -1,35 +1,27 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import StoriesList from './components/stories-list';
+import data from './data/data.json';
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const users = data.users.filter((user) => user.stories.length > 0);
+  const usersFE = users.map((user) => ({
+    ...user,
+    stories: user.stories.map((story) => ({
+      ...story,
+      viewed: false,
+    })),
+  }));
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <h1 className="font-bungee-spice px-4 pt-4 pb-2 text-2xl">Instgram - Stories</h1>
+      <StoriesList users={usersFE} />
+      {/* Dummy UI for posts */}
+      <div className="p-4 flex flex-col gap-4">
+        <div className="w-full h-80 bg-blue-100 animate-pulse rounded-lg"></div>
+        <div className="w-full h-80 bg-green-100 animate-pulse rounded-lg"></div>
+        <div className="w-full h-80 bg-gray-100 animate-pulse rounded-lg"></div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
